@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ева Алисултанова](https://up.htmlacademy.ru/htmlcss/35/user/2176401).
-* Наставник: `Малик_Киров` (https://htmlacademy.ru/profile/id17217).
+* Наставник: `Малик Киров` (https://htmlacademy.ru/profile/id17217).
 
 ---
 
