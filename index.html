@@ -7,11 +7,11 @@
   <body>
     <header>
       <div>
+        <nav>
+          <a href=""><img src="Logo.png" alt="logo" /></a>
+        </nav>
         <div>
-          <img src="./img/Logo.png" alt="Logo" />
-        </div>
-        <div>
-          <div>
+          <ul>
             <li>
               <a href="">Главная</a>
             </li>
@@ -21,26 +21,28 @@
             <li>
               <a href="">Гостиницы</a>
             </li>
-          </div>
+          </ul>
         </div>
         <div class="header__navigation">
           <ul>
             <li>
-              <img src="./img/Search.png" alt="поиск" />
+              <a href=""><img src="Search.png" alt="поиск" /></a>
             </li>
             <li>
-              <img src="./img/Heart.png" alt="избранное" />
+              <a href=""><img src="Heart.png" alt="избранное" /></a>
             </li>
           </ul>
-          <div>
-            <button>Хочу сюда!</button>
-          </div>
+
+          <a href=""><button>Хочу сюда!</button></a>
         </div>
       </div>
     </header>
 
     <main class="main-index">
-      <img src="./img/index-background.jpeg" alt="логотип_седона" />
+      <div>
+        <img src="./img/index-background.svg" alt="" />
+      </div>
+
       <section class="description">
         <h1 class="descriptions_city">
           Седона — небольшой городок в Аризоне, заслуживающий большего!
@@ -55,7 +57,7 @@
           <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </div>
         <div>
-          <img src="./img/photo-1.jpeg" alt="фото_городка" />
+          <img src="photo-1.jpeg" alt="фото_городка" />
         </div>
       </section>
 
@@ -87,7 +89,7 @@
       </section>
       <section>
         <div>
-          <img src="./img/photo-1.jpeg" alt="фото_городка" />
+          <img src="photo-1.jpeg" alt="фото_городка" />
         </div>
         <div>
           <h1>Там есть мост дьявола</h1>
@@ -96,7 +98,7 @@
       </section>
       <section class="servise">
         <div>
-          <img src="./img/house_logo.svg" alt="логотип_дома" />
+          <img src="house_logo.svg" alt="логотип_дома" />
           <ul>
             <li>
               <h1>Жилье</h1>
@@ -105,7 +107,7 @@
           </ul>
         </div>
         <div>
-          <img src="./img/food.svg" alt="логотип_еды" />
+          <img src="food.svg" alt="логотип_еды" />
           <ul>
             <li>
               <h1>Еда</h1>
@@ -117,7 +119,7 @@
           </ul>
         </div>
         <div>
-          <img src="./img/souvenir_logo.svg" alt="логотип_сувениры" />
+          <img src="souvenir_logo.svg" alt="логотип_сувениры" />
           <ul>
             <li>
               <h1>Сувениры</h1>
@@ -138,32 +140,53 @@
             </p>
           </h1>
         </div>
-        <div>
-          <button>ПОИСК ГОСТИНИЦЫ В седоне</button>
-        </div>
+
+        <a href=""><button>ПОИСК ГОСТИНИЦЫ В седоне</button></a>
       </section>
 
       <section>
-        <h1><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></h1>
+        <h2><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></h2>
         <p>Только полезная информация и никакого спама,честное бойскаутское!</p>
         <div class="custom-field">
-          <input id="email-field" type="email" />
-          <button>Подписаться</button>
+          <input
+            form="email-field"
+            type="email"
+            action="https://echo.htmlacademy.ru"
+          />
+          <button type="submit">Подписаться</button>
         </div>
       </section>
     </main>
-    <footer class="socials">
-      <button>
-        <img src="./img/VK logo.png" alt="вконтакте" />
-      </button>
-      <button>
-        <img src="./img/Telegram logo.png" alt="telegram" />
-      </button>
-      <button>
-        <img src="./img/Youtube logo.png" alt="youtube" />
-      </button>
-      <h1>+7 (812) 812-12-12</h1>
-      <img src="./img/HTML Academy logo.png" alt="html_academy_logo" />
+    <footer class="footer">
+      <ul>
+        <li>
+          <button>
+            <a href="https://vk.com/htmlacademy">
+              <img src="./img/vk_logo.png" alt="vkontakte"
+            /></a>
+          </button>
+        </li>
+
+        <li>
+          <button>
+            <a href="https://t.me/htmlacademy">
+              <img src="./img/Telegram logo.png"
+            /></a>
+          </button>
+        </li>
+
+        <li>
+          <button>
+            <a href="https://www.youtube.com/user/htmlacademyru">
+              <img src="./img/youtube_logo.png" alt="youtube"
+            /></a>
+          </button>
+        </li>
+      </ul>
+      <a href="/">+7(812) 812-12-12</a>
+      <a href="https://htmlacademy.ru/">
+        <img src="./img/HTML Academy logo.png" alt="html_academy_logo"
+      /></a>
     </footer>
   </body>
 </html>
