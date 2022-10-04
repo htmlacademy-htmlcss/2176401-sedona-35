@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8" />
-    <title>Седона</title>
+    <meta charset="utf-8"/>
+    <title>Sedona</title>
   </head>
-  <body>
+<body>
     <header>
       <div>
         <nav>
-          <a href=""><img src="Logo.png" alt="logo" /></a>
+          <a href="#"><img src="Logo.png" alt="logo"/></a>
         </nav>
         <div>
           <ul>
             <li>
-              <a href="">Главная</a>
+              <a href="#">Главная</a>
             </li>
             <li>
-              <a href="">О Cедоне</a>
+              <a href="#">О Cедоне</a>
             </li>
             <li>
-              <a href="">Гостиницы</a>
+              <a href="#">Гостиницы</a>
             </li>
           </ul>
         </div>
         <div class="header__navigation">
           <ul>
             <li>
-              <a href=""><img src="Search.png" alt="поиск" /></a>
+              <a href="#"><img src="Search.png" alt="поиск"></a>
             </li>
             <li>
-              <a href=""><img src="Heart.png" alt="избранное" /></a>
+              <a href="#"><img src="Heart.png" alt="избранное"></a>
             </li>
           </ul>
-
-          <a href=""><button>Хочу сюда!</button></a>
+<form>
+  <button>Хочу сюда</button>
+</form>
         </div>
       </div>
     </header>
-
     <main class="main-index">
       <div>
-        <img src="./img/index-background.svg" alt="" />
+        <img src="./img/index-background.svg" alt="#"/>
       </div>
-
       <section class="description">
         <h1 class="descriptions_city">
           Седона — небольшой городок в Аризоне, заслуживающий большего!
@@ -53,14 +52,13 @@
       </section>
       <section>
         <div>
-          <h1>Настоящий городок</h1>
+          <h2>Настоящий городок</h2>
           <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </div>
         <div>
-          <img src="photo-1.jpeg" alt="фото_городка" />
+          <img src="photo-1.jpeg" alt="фото_городка"/>
         </div>
       </section>
-
       <section>
         <div>
           <ul>
@@ -89,28 +87,28 @@
       </section>
       <section>
         <div>
-          <img src="photo-1.jpeg" alt="фото_городка" />
+          <img src="photo-1.jpeg" alt="фото_городка"/>
         </div>
         <div>
-          <h1>Там есть мост дьявола</h1>
+          <h2>Там есть мост дьявола</h2>
           <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         </div>
       </section>
       <section class="servise">
         <div>
-          <img src="house_logo.svg" alt="логотип_дома" />
+          <img src="house_logo.svg" alt="логотип_дома"/>
           <ul>
             <li>
-              <h1>Жилье</h1>
+              <h2>Жилье</h2>
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
           </ul>
         </div>
         <div>
-          <img src="food.svg" alt="логотип_еды" />
+          <img src="food.svg" alt="логотип_еды"/>
           <ul>
             <li>
-              <h1>Еда</h1>
+              <h2>Еда</h2>
               <p>
                 Всегда заказывайте топовый фирменный бургер, вы не
                 разочаруетесь!
@@ -119,10 +117,10 @@
           </ul>
         </div>
         <div>
-          <img src="souvenir_logo.svg" alt="логотип_сувениры" />
+          <img src="souvenir_logo.svg" alt="логотип_сувениры"/>
           <ul>
             <li>
-              <h1>Сувениры</h1>
+              <h2>Сувениры</h2>
               <p>
                 Не только китайского, но и настоящего местного производства!
               </p>
@@ -132,58 +130,56 @@
       </section>
       <section>
         <div>
-          <h1>
+          <h2>
             <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
             <p>
               Укажите предполагаемые даты поездки,и мы покажем вам лучшие
               предложения гостиниц в Седоне
             </p>
-          </h1>
+          </h2>
         </div>
-
-        <a href=""><button>ПОИСК ГОСТИНИЦЫ В седоне</button></a>
+        <div>
+  <form>
+    <button>Поиск гостиницы в седоне</button>
+  </form>
+</div>
       </section>
-
       <section>
         <h2><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></h2>
         <p>Только полезная информация и никакого спама,честное бойскаутское!</p>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <label for="e-mail"
+            ><input type="text" name="email" id="e-mail" value="Ваш e-mail" required
+          /></label>
+        </form>
         <div class="custom-field">
-          <input
-            form="email-field"
-            type="email"
-            action="https://echo.htmlacademy.ru"
-          />
-          <button type="submit">Подписаться</button>
+          <input type="submit" value="Подписаться" />
         </div>
       </section>
     </main>
     <footer class="footer">
       <ul>
         <li>
-          <button>
+          <button type="button">
             <a href="https://vk.com/htmlacademy">
               <img src="./img/vk_logo.png" alt="vkontakte"
             /></a>
           </button>
         </li>
-
         <li>
           <button>
             <a href="https://t.me/htmlacademy">
-              <img src="./img/Telegram logo.png"
-            /></a>
+              <img src="./img/Telegram logo.png" alt="telegram"></a>
           </button>
         </li>
-
         <li>
           <button>
             <a href="https://www.youtube.com/user/htmlacademyru">
-              <img src="./img/youtube_logo.png" alt="youtube"
-            /></a>
+              <img src="./img/youtube_logo.png" alt="youtube"/></a>
           </button>
         </li>
       </ul>
-      <a href="/">+7(812) 812-12-12</a>
+      <a href="#">+7(812) 812-12-12</a>
       <a href="https://htmlacademy.ru/">
         <img src="./img/HTML Academy logo.png" alt="html_academy_logo"
       /></a>
