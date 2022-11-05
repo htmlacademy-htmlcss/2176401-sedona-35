@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format ("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #242424;
+  background: #f2f2f2;
+  padding: 0 40px;
+}
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+  display: flex;
+
+  }
+  .logo {
+    background: url("../images/sedona.svg") no-repeat;
+    width: 140px;
+    height: 70px;
+    display:inline-flex;
+  }
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.navigation a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  width: 430px;
+
+}
+.navigation-list {
+width: 339px;
+}
+
+.header-navigation {
+margin-left: auto;
+max-width: 268px;
+}
+
+.main-index-image {
+  display: flex;
+    background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  }
+
+.page-container {
+width: 940px;
+margin: 0 auto;
+
+}
+
+.description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantages-title {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82b3d3;
+}
+
+.advantages-info-title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advantages-info-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+.service-advantages {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.service-advantages-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+.hotel-search-question {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.hotel-search-date {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
